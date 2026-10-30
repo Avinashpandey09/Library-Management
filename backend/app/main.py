@@ -10,4 +10,4 @@ Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "User API is running"}
+    return {"message": "User API is running small"}
